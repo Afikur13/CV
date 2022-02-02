@@ -1,0 +1,113 @@
+/*Font Face*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+	font-family: "Roboto", sans-serif;
+}
+.text-justify {
+	text-align: justify;
+}
+
+body {
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+		"Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+		"Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #212529;
+	text-align: left;
+	background-color: #fff;
+}
+/* Common Code End */
+
+/*Header code start*/
+/*Header area left code start*/
+.header-area-left h1{
+   text-transform: uppercase;
+}
+.header-area-left h4 {
+	color: #008086;
+}
+.header-area-left ul li {
+	display: inline;
+	padding: 0px 5ps;
+}
+.header-area-left .icon-color {
+	color: #008080;
+	margin-right: 5px;
+}
+/*Header area left code start*/
+/*Header area right code start*/
+.header-area-right img {
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+}
+/*Header area right code end*/
+/*Header code end*/
+
+/*main area code start*/
+h2 {
+	color: #008080;
+	text-transform: uppercase;
+	border-bottom: 2px solid #008080;
+}
+.education h5 {
+	color: #008080;
+}
+.education p {
+	display: inline;
+}
+.education .icon-color {
+	color: #008080;
+	margin-right: 10px;
+}
+.Projects .icon-color{
+  color: #008080;
+  margin-right: 10px ;
+}
+
+.Work h5 {
+	color: #008080;
+}
+.strengths h2 {
+	color: #008080;
+	text-transform: uppercase;
+}
+.s-items {
+	display: flex;
+	flex-wrap: wrap;
+}
+.s-item {
+	border: 1px solid #090909;
+	padding: 5px;
+	margin: 3px;
+	border-radius: 8px;
+}
+.hobbies .icon-color {
+	color: #008080;
+	margin-right: 10px;
+}
+.references strong {
+	display: block;
+}
+.box{
+  width: 20px;
+  height: 20px;
+  background-color:#008080;
+  border-radius: 50%;
+  margin: 2px;
+}
+.empty-box{
+  width: 20px;
+  height: 20px;
+  background-color:rgb(185, 185, 185);
+  border-radius: 50%;
+  margin: 2px;
+}
+.references .icon-color{
+  color: #008080;
+  margin-right: 5px ;
+}
+/*main area code end*/
